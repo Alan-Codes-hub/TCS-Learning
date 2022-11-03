@@ -1,0 +1,1 @@
+print("Pthon for Everybody")

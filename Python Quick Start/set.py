@@ -1,0 +1,8 @@
+a=set("We're gonna need a big boat")
+b=set("I'm soorry, I don't think that you wiill get tyat ")
+print(a)
+print(b)
+print(sorted(a))
+print(sorted(b))
+print(a-b)
+print(b-a)

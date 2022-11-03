@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form For Adding Books</title>
+<style>
+button{
+background-color:#2345E4;
+}
+</style>
+</head>
+<body>
+<h2>Add Book</h2>
+<form name="addBook">
+Book Id
+<input name="bookId" type="text">
+Book Name
+<input name="bookName" type="text">
+Category
+<select id="category">
+<option value="Action">Action</option>
+<option value="Drama">Drama</option>
+<option value="Comedy">Comedy</option>
+<option value="Children">Childrens</option>
+</select>
+<input type="radio" name="availability" value="available">Available
+<input type="radio" name="availability" value="not available">Not Available
+<button type="reset" name="cancel">Cancel</button>
+<button type="submit" name="add">Add</button>
+</form>
+</body>
+</html>

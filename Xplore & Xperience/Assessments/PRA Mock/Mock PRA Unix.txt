@@ -1,0 +1,24 @@
+we should do that this month
+else it will only be possible in the next Month or last MONTH
+therefore take utmost care in that
+
+
+awk 'BEGIN{FS=" ";count=0}
+{
+    if($0~/Month/ || $0~/MONTH/ || $0~/month/){count++}
+    if($0~/Month/ && $0~/MONTH/){count--}
+    if($0~/MONTH/ && $0~/month/){count--}
+    if($0~/Month/ && $0~/month/){count--}
+    if($0~/Month/ && $0~/MONTH/ && $0~/month/){count--}
+    
+}END{print(count)}'
+
+
+
+grep -i "MONTH" | wc -l | awk '{
+    if($0==0){
+        print("No lines found")
+    }else{
+        print("Number of lines matching are",$0)
+    }
+}'

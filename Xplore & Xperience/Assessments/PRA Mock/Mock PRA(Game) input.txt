@@ -1,0 +1,58 @@
+Sample Input 1 For Custom Testing
+5
+101
+Super Samsh Brothers
+16
+100
+102
+Super Mario Bros
+25
+150
+103
+Sonic the HedgeHog
+12
+120
+104
+Fond memories
+22
+125
+105
+Tetris
+10
+250
+10
+15
+
+Sample Output
+Super Mario Bros 3375.0
+Fond memories 2475.0
+Super Samsh Brothers 1440.0
+
+
+Sample Input 2 For Custom Testing
+5
+101
+Super Samsh Brothers
+16
+100
+102
+Super Mario Bros
+25
+150
+103
+Sonic the HedgeHog
+12
+120
+104
+Fond memories
+22
+125
+105
+Tetris
+10
+250
+10
+40
+
+Sample Output:
+Game Not Found.
